@@ -91,7 +91,3 @@ class SRTgen:
                 file.write(f"{entry['index']}\n")
                 file.write(f"{start_time} --> {end_time}\n")
                 file.write(f"{entry['text']}\n\n")
-
-# Example usage
-x = SRTgen("try1")
-x.generate()
